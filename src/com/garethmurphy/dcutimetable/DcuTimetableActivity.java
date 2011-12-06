@@ -39,6 +39,8 @@ public class DcuTimetableActivity extends Activity {
 				if (sem1.isChecked()) {
 					url += "&week1=1&week2=12";
 				} else {
+					
+					// Displayed on DCU website, these are the proper weeks.
 					url += "&week1=20&week2=31";
 				}
 				

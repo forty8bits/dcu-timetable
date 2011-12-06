@@ -20,13 +20,13 @@
         android:layout_marginTop="60px"
         android:text="Enter your class code (CA, EC, etc.)"
         android:textAppearance="?android:attr/textAppearanceMedium" />
-
+
     <EditText
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20px" />
-
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
