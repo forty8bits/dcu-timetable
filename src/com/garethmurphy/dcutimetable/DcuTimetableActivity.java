@@ -19,18 +19,22 @@ public class DcuTimetableActivity extends Activity {
         setContentView(R.layout.main);
         
         final EditText classCode = (EditText)findViewById(R.id.editText1);
+        final EditText classYear = (EditText)findViewById(R.id.editText2);
         final RadioButton sem1 = (RadioButton)findViewById(R.id.radio0);
         final Button btn = (Button)findViewById(R.id.button1);
         
         btn.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View v) {
-				if (classCode.length() == 0) return;
+				if (classCode.length() == 0 || classYear.length() == 0) return;
 				
-				String url = "http://www.dcu.ie/timetables/feed.php3?per=1&hour=1-28&template=student";
+				String url = "http://www.dcu.ie/timetables/feed.php3?hour=1-28&template=student";
 				
 				// Add the class code to the URL.
 				url += "&prog=" + classCode.getText();
+				
+				// The year of study.
+				url += "&per=" + classYear.getText();
 				
 				if (sem1.isChecked()) {
 					url += "&week1=1&week2=12";
