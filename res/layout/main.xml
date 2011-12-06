@@ -25,10 +25,7 @@
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20px" >
-
-        <requestFocus />
-    </EditText>
+        android:layout_marginTop="20px" />
 
     <TextView
         android:id="@+id/textView2"

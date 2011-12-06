@@ -39,7 +39,7 @@ public class DcuTimetableActivity extends Activity {
 				if (sem1.isChecked()) {
 					url += "&week1=1&week2=12";
 				} else {
-					url += "&week1=13&week2=24";
+					url += "&week1=20&week2=31";
 				}
 				
 				Intent i = new Intent(Intent.ACTION_VIEW);
