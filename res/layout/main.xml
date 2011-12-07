@@ -28,7 +28,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Classcode (CA, EC, etc.)"
+                android:text="Class code (CA, EC, etc.)"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
             <EditText
                 android:id="@+id/cdEntry"
