@@ -3,5 +3,9 @@
 
     <string name="hello">Hello World, DcuTimetableActivity!</string>
     <string name="app_name">Dcu Timetable</string>
+    <string-array name="semesters">
+        <item >1</item>
+        <item >2</item>
+    </string-array>
 
 </resources>

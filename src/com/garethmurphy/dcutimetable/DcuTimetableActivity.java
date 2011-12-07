@@ -10,17 +10,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
-
 public class DcuTimetableActivity extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.main2);
         
         final EditText classCode = (EditText)findViewById(R.id.editText1);
         final EditText classYear = (EditText)findViewById(R.id.editText2);
-        final RadioButton sem1 = (RadioButton)findViewById(R.id.radio0);
+        final RadioButton sem = (RadioButton)findViewById(R.id.radioButton1);
         final Button btn = (Button)findViewById(R.id.button1);
         
         btn.setOnClickListener(new OnClickListener() {
@@ -36,7 +35,7 @@ public class DcuTimetableActivity extends Activity {
 				// The year of study.
 				url += "&per=" + classYear.getText();
 				
-				if (sem1.isChecked()) {
+				if (sem.isChecked()) {
 					url += "&week1=1&week2=12";
 				} else {
 					url += "&week1=13&week2=24";
