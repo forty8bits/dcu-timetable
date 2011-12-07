@@ -1,0 +1,42 @@
+@import "960_12_col.css";
+@import "normalize.css";
+
+#showcase {
+    z-index: 10;
+}
+
+#intro {
+    z-index: 0;
+    padding-top: 120px;
+}
+
+#intro p {
+    color: #00285C;
+    font: 22px/1.5em Arial, sans-serif;
+}
+
+#intro h1 {
+    float: left;
+    position: relative;
+    font-size: 44px;
+    background-color: #F8B040;
+    color: #fff;
+    padding: 5px 10px 5px 60px;
+    margin-top: -10px;
+    left: -60px;
+}
+
+#bottom {
+    border-top: 1px solid #e6e6e6;
+    margin: -130px 0 0 0;
+    width: 100%;
+    height: 600px;
+     background-color: #f7f7f7;
+}
+
+#bottom p, li {
+    margin-top: 1.5em;
+    font: 16px/1.5em Arial, sans-serif;
+    color: #00285c;
+    opacity: 0.8;
+}
