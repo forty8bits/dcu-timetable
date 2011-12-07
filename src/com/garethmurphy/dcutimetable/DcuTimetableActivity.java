@@ -15,7 +15,7 @@ public class DcuTimetableActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main2);
+        setContentView(R.layout.main);
         
         final EditText classCode = (EditText)findViewById(R.id.editText1);
         final EditText classYear = (EditText)findViewById(R.id.editText2);
