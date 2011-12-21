@@ -6,79 +6,75 @@ body{ min-width:720px}.container_12{margin-left:auto;margin-right:auto;width:720
 
 
 #top {
-    background: url("../img/back.jpg") no-repeat center top;
-    background-size: cover;
+  background: url("../img/back.jpg") no-repeat center top;
+  background-size: cover;
 }
 
-#showcase {
-    z-index: 10;
-}
+#showcase {  z-index: 10 }
 
 #intro {
-    z-index: 0;
-    padding-top: 60px;
+  z-index: 0;
+  padding-top: 60px;
 }
 
 #intro p {
-    color: #fff;
-    font: 22px/35px Arial, sans-serif;
-    text-align: justify;
-
+  color: #fff;
+  font: 22px/35px Arial, sans-serif;
+  text-align: justify;
 }
 
 #intro p span {
-    display: inline;
-    background-color: rgba(0,0,0,0.4);
-    padding: 5px 0;
+  display: inline;
+  background-color: rgba(0,0,0,0.4);
+  padding: 5px 0;
 }
 
 #intro h1 {
-    position: relative;
-    font-size: 54px;
-    background-color: #F8B040;
-    color: #fff;
-    padding: 5px 10px 5px 60px;
-    left: -60px;
-    width: 390px;
-    margin-bottom: .4em;
+  position: relative;
+  font-size: 54px;
+  background-color: #F8B040;
+  color: #fff;
+  padding: 5px 10px 5px 60px;
+  left: -60px;
+  width: 390px;
+  margin-bottom: .4em;
 }
 
 #bottom {
-    border-top: 1px solid #e6e6e6;
-    margin: -130px 0 0 0;
-    width: 100%;
-    height: 600px;
-     background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  margin: -130px 0 0 0;
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
 }
 
-#bottom div {
-    margin-bottom: 1.67em;
-}
+#bottom div {  margin-bottom: 1.67em }
 
 h2 {
-    margin-top: 0;
-    background-color: #F8B040;
-    color: #fff;
-    padding: 5px 10px;
-    display: inline;
-    display: inline-block;
+  margin-top: 0;
+  background-color: #F8B040;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline;
+  display: inline-block;
 }
 
-#bottom p, li {
-    font: 16px/1.67em Arial, sans-serif;
-    color: #333;
-    opacity: 0.8;
-    text-align: justify;
+#bottom p,
+li {
+  font: 16px/1.67em Arial, sans-serif;
+  color: #333;
+  opacity: 0.8;
+  text-align: justify;
 }
 
 #bottom a {
-    color: #0041C4;
-    font-weight: bold;
-    text-decoration: none;
-    border-bottom: 1px dotted #0041C4;
+  color: #0041C4;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted #0041C4;
 }
 
 .grid_5 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
