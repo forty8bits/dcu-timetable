@@ -10,13 +10,13 @@ import android.widget.ImageView;
 
 public class DcuTimetableActivity extends Activity {
 	
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
 	
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
+        // Sets the image opacity; just testing appearance.
         ImageView bg = (ImageView)findViewById(R.id.imageView1);
         bg.setAlpha(100);
         

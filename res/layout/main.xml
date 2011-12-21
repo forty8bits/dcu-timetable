@@ -12,29 +12,28 @@
         android:layout_marginBottom="-75dp"
         android:layout_marginLeft="-50dp"
         android:src="@drawable/dculogo" />
-    
+
     <LinearLayout
-		android:id="@+id/linearLayout1"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:orientation="vertical" >
-            
-           <Button
-               android:id="@+id/myTimetable"
-               android:layout_width="150dp"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center"
-               android:layout_marginTop="100px"
-               android:text="My Timetable" />
-           
-           <Button
-               android:id="@+id/searchTimetables"
-               android:layout_width="150dp"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center"
-               android:layout_marginTop="20px"
-               android:text="Search Timetables" />
-            
+    	android:id="@+id/linearLayout1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="vertical" >
+
+    	<Button
+    		android:id="@+id/myTimetable"
+    		android:layout_width="150dp"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center"
+    		android:layout_marginTop="100px"
+    		android:text="My Timetable" />
+
+    	<Button
+    		android:id="@+id/searchTimetables"
+    		android:layout_width="150dp"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center"
+    		android:layout_marginTop="20px"
+    		android:text="Search Timetables" />
     </LinearLayout>
     
 </FrameLayout>
