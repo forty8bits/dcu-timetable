@@ -9,8 +9,9 @@ Although right now this app is fairly basic, and only allows you to look at the
 online version through your phones built-in browser, future improvements will
 include:
 
-+ Storage of your timetable locally, allowing access when no network is
-  available and also saving battery.
-+ Parsing of the timetable data for much improved display on your mobile device.
++ Parsing and storage of the timetable locally on your phone, to save you both
+  network usage and battery drain.
++ Lots of UI improvements, made possible by the above when implemented (it's in
+  the works).
 
 Any suggestions for features are welcome!
