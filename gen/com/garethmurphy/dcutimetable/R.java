@@ -40,6 +40,7 @@ public final class R {
         public static final int main=0x7f030000;
         public static final int my_timetable=0x7f030001;
         public static final int search_timetable=0x7f030002;
+        public static final int show_table=0x7f030003;
     }
     public static final class string {
         public static final int app_name=0x7f040001;

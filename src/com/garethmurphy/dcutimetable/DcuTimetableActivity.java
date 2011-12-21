@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class DcuTimetableActivity extends Activity {
 	
@@ -15,6 +16,9 @@ public class DcuTimetableActivity extends Activity {
 	
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        
+        ImageView bg = (ImageView)findViewById(R.id.imageView1);
+        bg.setAlpha(100);
         
         Button myTimetable = (Button) findViewById(R.id.myTimetable);
         Button searchTimetables = (Button) findViewById(R.id.searchTimetables);
