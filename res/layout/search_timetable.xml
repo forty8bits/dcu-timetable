@@ -4,15 +4,15 @@
     android:layout_height="fill_parent"
 	android:background="@drawable/bg"  >
 
+	//This image moves when the keyboard opens
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="300dp"
+        android:layout_width="fill_parent"
         android:layout_height="300dp"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="-75dp"
-        android:layout_marginLeft="-50dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:contentDescription="@string/dculogo"
         android:src="@drawable/dculogo" />
-
+        
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="fill_parent"

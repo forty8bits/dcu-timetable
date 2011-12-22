@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, DcuTimetableActivity!</string>
     <string name="app_name">Dcu Timetable</string>
     <string-array name="semesters">
         <item >1</item>
         <item >2</item>
     </string-array>
+    <string name="searchtimetable">Search Timetables</string>
+    <string name="mytimetable">My Timetable</string>
+    <string name="dculogo">The DCU Logo</string>
 
 </resources>
