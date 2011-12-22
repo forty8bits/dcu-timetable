@@ -2,39 +2,38 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-	android:background="@drawable/bg"  >
-
+    android:background="@drawable/bg" >
+
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="300dp"
+        android:layout_width="fill_parent"
         android:layout_height="300dp"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="-75dp"
-        android:layout_marginLeft="-50dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:contentDescription="@string/dculogo"
         android:src="@drawable/dculogo" />
+
     
     <LinearLayout
-		android:id="@+id/linearLayout1"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:orientation="vertical" >
-            
-           <Button
-               android:id="@+id/myTimetable"
-               android:layout_width="150dp"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center"
-               android:layout_marginTop="100px"
-               android:text="My Timetable" />
-           
-           <Button
-               android:id="@+id/searchTimetables"
-               android:layout_width="150dp"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center"
-               android:layout_marginTop="20px"
-               android:text="Search Timetables" />
-            
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/myTimetable"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="@string/mytimetable" />
+
+        <Button
+            android:id="@+id/searchTimetables"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/searchtimetable" />
     </LinearLayout>
-    
+
 </FrameLayout>
