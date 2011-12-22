@@ -8,5 +8,8 @@
     <string name="searchtimetable">Search Timetables</string>
     <string name="mytimetable">My Timetable</string>
     <string name="dculogo">The DCU Logo</string>
+    <string name="classcodes">Class code (CA, EC, etc.)</string>
+    <string name="semester">Semester</string>
+    <string name="gettimetable">Get timetable</string>
 
 </resources>
