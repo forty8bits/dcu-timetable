@@ -6,13 +6,12 @@
 
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="300dp"
+        android:layout_width="fill_parent"
         android:layout_height="300dp"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="-75dp"
-        android:layout_marginLeft="-50dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:contentDescription="@string/dculogo"
         android:src="@drawable/dculogo" />
-
+        
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="fill_parent"
@@ -29,7 +28,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Class code (CA, EC, etc.)"
+                android:text="@string/classcodes"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <EditText
@@ -66,7 +65,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="Semester"
+                    android:text="@string/semester"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 <RadioGroup
@@ -101,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginTop="20dp"
-                android:text="Get Timetable" />
+                android:text="@string/gettimetable" />
             
         </LinearLayout>
         
