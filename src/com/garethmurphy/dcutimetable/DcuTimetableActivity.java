@@ -17,7 +17,7 @@ public class DcuTimetableActivity extends Activity {
         setContentView(R.layout.main);
         
         // Sets the image opacity; just testing appearance.
-        ImageView bg = (ImageView)findViewById(R.id.imageView1);
+        ImageView bg = (ImageView) findViewById(R.id.imageView1);
         bg.setAlpha(100);
         
         Button myTimetable = (Button) findViewById(R.id.myTimetable);
@@ -25,15 +25,15 @@ public class DcuTimetableActivity extends Activity {
 
         myTimetable.setOnClickListener(new OnClickListener() {	
             public void onClick(View v) {
-        	Intent myIntent = new Intent(v.getContext(), MyTimetable.class);
-                startActivityForResult(myIntent, 0);
+            	startActivity(new Intent(getApplicationContext(),
+            			MyTimetable.class));
             }
         });
         
         searchTimetables.setOnClickListener(new OnClickListener() {	
             public void onClick(View v) {
-        	Intent myIntent = new Intent(v.getContext(), SearchTimetable.class);
-                startActivityForResult(myIntent, 0);
+            	startActivity(new Intent(getApplicationContext(),
+            			SearchTimetable.class));
             }
         });
     }    

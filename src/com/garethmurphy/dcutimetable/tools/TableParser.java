@@ -10,6 +10,17 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class TableParser {
+	
+	private String[] times = new String[28];
+	{
+		int it = 0;
+		for (double hr = 8.0; hr < 22.0; hr += 0.5) {
+			if (hr % 1 != 0) times[it] = (int)hr + ":30";
+			else times[it] = (int)hr + ":00";
+		}
+		
+		System.out.println(times);
+	}
 
 	public static ArrayList<HashMap<String, String>> parse(String url) {
 
