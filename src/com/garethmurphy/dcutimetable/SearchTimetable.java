@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.text.InputType;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -19,23 +17,9 @@ public class SearchTimetable extends Activity {
     	
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search_timetable);
-            
         
-        final Button btn = (Button)findViewById(R.id.button1);
-        final EditText classCode = (EditText)findViewById(R.id.cdEntry); 
-        
-        // This lump of code disables the keyboard from popping up on launch.
-        // TODO: Look into this code further.
-        classCode.setInputType(InputType.TYPE_NULL);
-        classCode.setOnTouchListener(new View.OnTouchListener() {
-            public boolean onTouch(View v, MotionEvent event) {
-	        	classCode.setInputType(InputType.TYPE_CLASS_TEXT);
-	        	classCode.onTouchEvent(event); 
-	        	
-	            return true;
-            } 
-        });
-        
+        Button btn = (Button) findViewById(R.id.button1);
+                
         // Setup the event handlers to process details and send the Intent.
         btn.setOnClickListener(new OnClickListener() {
         	
@@ -64,9 +48,7 @@ public class SearchTimetable extends Activity {
 				}
 	    				
 	        	// Send out the intent to open the timetable in default browser.
-	        	Intent i = new Intent(Intent.ACTION_VIEW);
-	        	i.setData(Uri.parse(url));
-	        	startActivity(i);
+				startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
             }
         });
     }
