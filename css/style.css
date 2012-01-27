@@ -18,15 +18,10 @@ body{ min-width:720px}.container_12{margin-left:auto;margin-right:auto;width:720
 }
 
 #intro p {
-  color: #fff;
-  font: 22px/35px Arial, sans-serif;
+  color: rgba(0,0,0,0.6);
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  font: bold 22px/35px Arial, sans-serif;
   text-align: justify;
-}
-
-#intro p span {
-  display: inline;
-  background-color: rgba(0,0,0,0.4);
-  padding: 5px 0;
 }
 
 #intro h1 {
